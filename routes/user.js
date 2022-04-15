@@ -4,7 +4,7 @@ const User = require("../models/user");
 const isAuth = require("../middleware/is-auth");
 const isAuthMentor = require("../middleware/is-auth-mentor");
 const isAuthAdmin = require("../middleware/is-auth-admin");
-const { check, body, param } = require("express-validator/check");
+const { body } = require("express-validator/check");
 
 const assessmentController = require("../controllers/assessment");
 const submissionController = require("../controllers/submission");

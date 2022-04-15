@@ -15,9 +15,8 @@ const Role = sequelize.define("role", {
   },
   active: {
     type: Sequelize.INTEGER,
-    defaultValue:1
-  }
-  
+    defaultValue: 1,
+  },
 });
 
 module.exports = Role;

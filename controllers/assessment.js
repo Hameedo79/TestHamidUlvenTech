@@ -5,7 +5,6 @@ const { validationResult } = require("express-validator/check");
 
 exports.getAssessments = async (req, res, next) => {
   try {
-    console.log('jaja');
     const data = await Assessment.findAll();
 
     if (Object.entries(data).length != 0) {

@@ -1,7 +1,5 @@
 const request = require("supertest");
 const expect = require("chai").expect;
-const sinon = require("sinon");
-// import * as database from "../util/database";
 const sequelize = require("../util/database");
 
 const app = require("../app");

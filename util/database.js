@@ -5,5 +5,4 @@ const sequelize = new Sequelize("assessment", "root", "", {
   host: "localhost",
 });
 
-
 module.exports = sequelize;

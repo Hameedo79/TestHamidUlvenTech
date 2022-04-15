@@ -8,8 +8,6 @@ const moment = require("moment");
 
 const express = require("express");
 const sequelize = require("./util/database");
-// const session = require("express-session");
-// const SessionStore = require("express-session-sequelize")(session.Store);
 
 const app = express();
 
